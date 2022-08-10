@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
+    <title>DoctorZone 포트폴리오</title>
+    <!-- Favicons -->
+    <!-- <link href="assets/img/favicon.png" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" /> -->
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+      rel="stylesheet"
+    />
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+
+    <!-- =======================================================
+  * Template Name: iPortfolio - v3.8.1
+  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+  </head>
+
+  <body>
+    <!-- ======= Mobile nav toggle button ======= -->
+    <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+
+    <!-- ======= Header ======= -->
+    <header id="header">
+      <div class="d-flex flex-column">
+        <div class="profile">
+          <a href="index.html">
+          <img
+            src="assets/img/profile-img.jpg"
+            alt=""
+            class="img-fluid rounded-circle"
+          />
+          </a>
+          <h1 class="text-light"><a href="index.html">손재현</a></h1>
+          <div class="social-links mt-3 text-center">
+            <a href="https://www.instagram.com/_jhyeeen/" class="instagram"
+              ><i class="bx bxl-instagram"></i
+            ></a>
+            <a href="https://github.com/sjh9391985" class="github"
+              ><i class="bx bxl-github"></i
+            ></a>
+            <a href="sjh9391985@naver.com" class="gmail"
+              ><i class="bx bxl-gmail"></i
+            ></a>
+          </div>
+        </div>
+
+        <!-- .nav-menu -->
+      </div>
+    </header>
+    <!-- End Header -->
+
+    <main id="main">
+      <!-- ======= Breadcrumbs ======= -->
+      <section id="breadcrumbs" class="breadcrumbs">
+        <div class="container">
+          <div class="d-flex justify-content-between align-items-center">
+            <h2>
+              DoctorZone 
+              <span style="color: #4169e1; "><h6>(2022.01 - 2022.08)</h6></span>
+            </h2>
+
+            <ol>
+              <li><a href="index.html">Home</a></li>
+            </ol>
+          </div>
+        </div>
+      </section>
+      <!-- End Breadcrumbs -->
+
+      <!-- ======= Portfolio Details Section ======= -->
+      <section id="portfolio-details" class="portfolio-details">
+        <div class="container">
+          <div class="row gy-4">
+            <div class="col-lg-8">
+              <div class="portfolio-info">
+                <h3>프로젝트 요약</h3>
+
+                <ul>
+                  <li><strong>프로젝트 이름</strong>: Doctor Zone (ver 1.0)</li>
+
+                  <li style="color: #4169e1">
+                    <strong># 반응형 웹 개발</strong>
+                  </li>
+                  <li>- MSA 아키텍처 기반의 보험 청구 시스템 개발</li>
+                  <li>- 자바에이전트를 통한 외부 연동 및 SAM 파일생성</li>
+                  <li>
+                    - 심사평가원 진료비 청구프로그램 연동 및 이팜모바일 QR 생성
+                  </li>
+
+                  <li>
+                    <strong>트러블 슈팅</strong>
+                    
+                    <li>
+                    <strong>#1</strong> 
+                    <p>- 파일, QR 생성시 한글, 특수문자, 영어 등 byte 크기를 고려해서 생성하는데 MySql과 Java에서 사용하는 바이트크기가 다른 이슈가 있었음.</p>
+                  </li>
+                  <li>
+                    - 각각의 인코딩 byte 크기를 확인 후 Mybatis 쿼리에서 바이트 변환하여 데이터 가져오는것으로 해결 
+                  </li>
+
+                  <li>
+                    <strong>#2</strong> <p>- 개발기에서는 OS를 mac을 사용하고 운영측에서 고객사는 window OS를 사용하여 파일 업로드 다운로드 이슈가 있었음.</p>
+                  </li>
+                  <li>
+                    - 자바 에이전트를 제작하여 고객사측에서 필수 에이전트 프로그램으로 설치 후 외부 연동을 통해 이슈를 해결
+                  </li>
+                  </li>
+                  <li>
+                    <strong>Project URL</strong>:
+                    <a href="#">출시예정</a>
+                  </li>
+                </ul>
+              </div>
+              <!-- <div class="portfolio-details-slider swiper">
+                <div class="swiper-wrapper align-items-center">
+                  <div class="swiper-slide">
+                    <img
+                      src="assets/img/portfolio/doctor-zone-details.jpg"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div class="swiper-pagination"></div>
+              </div> -->
+            </div>
+
+            <div class="col-lg-4">
+              
+              <div class="portfolio-description">
+                <h2>프로젝트 역할</h2>
+                <p>
+                  더존비즈온 헬스케어 사업본부의 의료시스템 반응형 웹 개발이며 MSA 아키텍처 기반으로 보험심사 모듈 및 원무화면의 일부 기능 개발에 참여
+                </p>
+                <p>
+                  Dortor Zone 보험심사 시스템의 송신/수신 화면 반응형 UI 웹 화면 개발, ajax 요청통신 공통함수 개발  
+                </p>
+                <p>
+                  보험심사 송신, 수신 화면의 SAM FILE 생성, 삭제, 추가를 위한 <br/>자바에이전트 제작을 통한 외부 연동
+                </p>
+                <p>
+                  심사 청구 프로그램 연동을 위해서 custom uri scheme 사용과 윈도우 배치프로그램을 제작 
+                </p>
+                <p>
+                  원무 프로그램에서 사용하는 이팜 모바일 EDB QR 제작 참여
+                </p>
+              </div>
+              <br/>
+              <h5>[기술 스택]</h5>
+              <ul style="color: #4169e1;">
+              <li>🔨 Front End : React , Es6</li>
+              <li>🔨 Back End : Springboot, Java</li>
+              <li>🔨 DB : Maria DB </li>
+              <li>🔨 Etc : 회사자체기술[보안] </li>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Portfolio Details Section -->
+    </main>
+    <!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+      <div class="container">
+        <div class="copyright">
+          &copy; Copyright <strong><span>iPortfolio</span></strong>
+        </div>
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/ -->
+          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        </div>
+      </div>
+    </footer>
+    <!-- End  Footer -->
+
+    <a
+      href="#"
+      class="back-to-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/typed.js/typed.min.js"></script>
+    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
